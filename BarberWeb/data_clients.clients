@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ArrayOfClient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Client>
+    <Appointment>
+      <Worker>
+        <IndividualNumber>228</IndividualNumber>
+        <WorkerName>Виталик</WorkerName>
+        <Position>Про-барбер</Position>
+        <StartDate>2010-12-05T00:00:00</StartDate>
+      </Worker>
+      <VisitDate>2019-06-04T13:48:09</VisitDate>
+      <Service>PremiumShave</Service>
+    </Appointment>
+    <ClientName>Попов Даниил Сергеевич</ClientName>
+    <Birthday>1998-12-31T13:47:43</Birthday>
+    <PhoneNumber>88005553535</PhoneNumber>
+  </Client>
+  <Client>
+    <Appointment>
+      <Worker>
+        <IndividualNumber>212</IndividualNumber>
+        <WorkerName>Эдуард</WorkerName>
+        <Position>Нью-барбер</Position>
+        <StartDate>2018-05-24T00:00:00</StartDate>
+      </Worker>
+      <VisitDate>2019-05-28T13:49:08.1200966+05:00</VisitDate>
+      <Service>HaircutMachine</Service>
+    </Appointment>
+    <ClientName>Ловской Кирилл Юрьевич</ClientName>
+    <Birthday>1999-09-20T13:48:22</Birthday>
+    <PhoneNumber>88005553434</PhoneNumber>
+  </Client>
+  <Client>
+    <Appointment>
+      <Worker>
+        <IndividualNumber>7</IndividualNumber>
+        <WorkerName>Степан</WorkerName>
+        <Position>Барбер-стажёр</Position>
+        <StartDate>2019-03-07T00:00:00</StartDate>
+      </Worker>
+      <VisitDate>2019-06-07T13:49:51</VisitDate>
+      <Service>HairStyling</Service>
+    </Appointment>
+    <ClientName>Байгулов Дмитрий Эдуардович</ClientName>
+    <Birthday>1999-04-27T13:49:18</Birthday>
+    <PhoneNumber>88005557878</PhoneNumber>
+  </Client>
+</ArrayOfClient>

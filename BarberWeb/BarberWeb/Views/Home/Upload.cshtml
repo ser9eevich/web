@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Загрузка";
+}
+
+<h2>БарберШоп "МУЖИКИ"</h2>
+
+
+@using (Html.BeginForm("Upload",
+						"Home",
+						FormMethod.Post,
+						new { enctype = "multipart/form-data" }))
+{
+	<label for="file">Загрузка списка клиентов:</label><br> 
+	<input type="file" name="file" id="file" /><br> 
+	<input type="submit" id="upload" value="Загрузить" /> 
+	@ViewBag.Message
+	<br><br>
+}
+
+<div>
+    @Html.ActionLink("Вернуться на главную страницу", "Index")
+</div>
+
+<style>
+	#upload {
+		width: 100px;
+		height: 50px;
+	}
+</style>
